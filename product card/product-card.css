@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(250, 235, 215, 0.469);
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    position: relative;
+    width: 550px;
+    height: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.403));
+}
+
+#mug {
+    width: 44%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info {
+    position: absolute;
+    width: 56%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 23px;
+    background-color: white;
+}
+
+#cart {
+    position: relative;
+    background-color: rgba(65, 103, 65, 0.854);
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 18px;
+}
+
+#cart p{
+    position: absolute;
+    left: 105px;
+    bottom: 9px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+#cart-icon {
+    position: absolute;
+    left: 76px;
+    top: 9px;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.554);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 0.7em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.6em;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+#para {
+    color: rgba(0, 0, 0, 0.668);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    color: rgba(65, 103, 65, 0.854);
+    display: inline;
+}
+
+h5 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.511);
+    font-size: 0.8em;
+}
+
+#card:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.403));
+    transition: 0.2s;
+}
+
+#cart:hover {
+    background-color: rgba(65, 103, 65, 0.954);
+}

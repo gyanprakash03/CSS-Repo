@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 480px;
+            border: 1px solid black;
+            padding-left: 27px;
+            padding-right: 30px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        h3, #discount {
+            display: inline;
+        }
+        #image {
+            border-radius: 10px;
+        }
+        #newcost {
+            color: rgb(47, 47, 255);
+            padding-top: 11px;
+        }
+        #oldcost {
+            color: gray;
+            padding-left: 12px;
+        }
+        #discount {
+            color: white;
+            background-color: rgba(142, 113, 107, 0.697);
+            margin-left: 15px;
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://dz8fbjd9gwp2s.cloudfront.net/courses/6369142ae4b01a0643c56f13/6369142ae4b01a0643c56f13_scaled_cover.jpg?v=1" alt="Dot batch"
+        width="440" id="image">
+        <div>
+            <h1>Web Development Master <br>
+                Course @dot Batch</h1>
+        </div>
+        <hr color="#dddddd" width="320" align="left">
+        <br>
+
+        <h3 id="newcost">₹4500</h3>
+        <h3 id="oldcost"><s>₹6999</s></h3>
+        
+        <div id="discount">42% off</div>
+    </div>
+    
+</body>
+</html>

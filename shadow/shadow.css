@@ -1,0 +1,18 @@
+#first {
+    text-shadow: 2px 2px 2px red, 3px 3px 3px yellow;
+}
+
+#second {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(174, 86, 255, 0.782);
+    box-shadow: 6px 6px 6px blue;
+}
+
+#third {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    /* border: 1px solid rgba(0, 0, 0, 0.118); */
+    box-shadow: inset 6px 3px 6px 6px rgba(0, 0, 0, 0.161);
+}

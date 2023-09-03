@@ -1,0 +1,25 @@
+#first {
+    border: 1px solid blue;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right,blue,white);
+}
+
+#second {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    background-image: radial-gradient(blue,white);
+    border-radius: 50%;
+}
+
+#third {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    background-image: conic-gradient(from 0deg,white,blue,black,blue,white);
+    border-radius: 50%;
+}
